@@ -1,0 +1,42 @@
+name: furniture_app_ui
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+   
+
+  fonts:
+    - family: Monologue
+      fonts:
+        - asset: assets/fonts/Monologue_DEMO.ttf
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SFPRODISPLAYREGULAR.otf
+        - asset: assets/fonts/SFPRODISPLAYBOLD.otf
+          weight: 700
+        - asset: assets/fonts/SFPRODISPLAYMEDIUM.otf
+          weight: 500
+
+
+
