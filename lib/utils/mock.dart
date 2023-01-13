@@ -1,3 +1,4 @@
+import '../models/collection_detail_model.dart';
 import '../models/collection_model.dart';
 
 List<CollectionModel> mockData = [
