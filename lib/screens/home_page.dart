@@ -43,14 +43,14 @@ class _HomePageState extends State<HomePage> {
                     text: "NEW\n",
                     style: Theme.of(context)
                         .textTheme
-                        .headline1!
+                        .displayLarge!
                         .copyWith(color: AppColors.accentColor, fontSize: 60),
                     children: [
                       TextSpan(
                           text: "COLLECTION",
                           style: Theme.of(context)
                               .textTheme
-                              .headline5!
+                              .headlineMedium!
                               .copyWith(
                                   color: AppColors.tertiaryColor,
                                   fontSize: 60)),
@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
                               "The new Flexform outdoor collection is\npermeated with fresh, inventive style and\npioneering design research.",
                           style: Theme.of(context)
                               .textTheme
-                              .bodyText1!
+                              .bodyLarge!
                               .copyWith(
                                   color: AppColors.tertiaryColor,
                                   fontSize: 20,
@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                                 text: " Read More",
                                 style: Theme.of(context)
                                     .textTheme
-                                    .bodyText1!
+                                    .bodyLarge!
                                     .copyWith(
                                         color: AppColors.tertiaryColor,
                                         fontSize: 20,

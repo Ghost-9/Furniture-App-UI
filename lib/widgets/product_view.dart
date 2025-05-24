@@ -66,14 +66,14 @@ class ProductView extends StatelessWidget {
                 children: [
                   Text(
                       "${collectionName.split(" ").first}\n${collectionName.split(" ").last}",
-                      style: Theme.of(context).textTheme.headline1!.copyWith(
+                      style: Theme.of(context).textTheme.displayLarge!.copyWith(
                           color: Colors.grey,
                           fontFamily: Constants.secondaryFont,
                           fontSize: 18,
                           fontWeight: FontWeight.w500)),
                   Text(
                     "\$$price",
-                    style: Theme.of(context).textTheme.headline1!.copyWith(
+                    style: Theme.of(context).textTheme.displayLarge!.copyWith(
                         color: Colors.white,
                         fontFamily: Constants.secondaryFont,
                         fontSize: 20,
