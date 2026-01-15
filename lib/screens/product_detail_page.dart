@@ -123,13 +123,15 @@ class ProductDetailsPage extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            MaterialButton(
+            ElevatedButton(
               onPressed: () {},
-              height: 60,
-              padding: const EdgeInsets.symmetric(horizontal: 100),
-              color: AppColors.accentColor,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(18)),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.accentColor,
+                minimumSize: const Size(200, 60),
+                padding: const EdgeInsets.symmetric(horizontal: 100),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18)),
+              ),
               child: const Text(
                 "BUY NOW",
                 style: TextStyle(

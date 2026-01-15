@@ -49,10 +49,10 @@ class ProductView extends StatelessWidget {
                 child: IconButton(
                     onPressed: onPressed,
                     icon: Icon(
-                      isBookmarked ?? false
+                      (isBookmarked ?? false)
                           ? Icons.bookmark
                           : Icons.bookmark_border_rounded,
-                      color: isBookmarked! ? Colors.black : Colors.grey,
+                      color: (isBookmarked ?? false) ? Colors.black : Colors.grey,
                     )),
               ),
             ),

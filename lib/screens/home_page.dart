@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                     )),
               ),
               Positioned(
-                top: MediaQuery.of(context).size.height * 0.18,
+                top: MediaQuery.sizeOf(context).height * 0.18,
                 child: DefaultTabController(
                   length: 5,
                   child: Column(
@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       SizedBox(
                         height: 60,
-                        width: MediaQuery.of(context).size.width,
+                        width: MediaQuery.sizeOf(context).width,
                         child: const TabBar(
                             isScrollable: true,
                             indicatorSize: TabBarIndicatorSize.label,
@@ -163,8 +163,8 @@ class _HomePageState extends State<HomePage> {
                         height: 20,
                       ),
                       SizedBox(
-                        height: MediaQuery.of(context).size.height * 0.6,
-                        width: MediaQuery.of(context).size.width - 32,
+                        height: MediaQuery.sizeOf(context).height * 0.6,
+                        width: MediaQuery.sizeOf(context).width - 32,
                         child: TabBarView(
                             children: List.generate(
                           5,
