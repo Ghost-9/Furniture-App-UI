@@ -32,12 +32,12 @@
   <table>
     <tr>
       <td width="50%" align="center">
-        <strong>Dynamic Story Browse</strong><br /><br />
-        <img width="100%" alt="Collection Swipe Transition" src="https://user-images.githubusercontent.com/53341343/212306305-a9d5fa91-a6ce-4374-a49e-6b0b0d005a8b.png" />
+        <strong>Collection Story Browse (iOS Simulator Retina)</strong><br /><br />
+        <img width="340" alt="Collection Story Browse" src="docs/screenshots/furniture_catalog.png" />
       </td>
       <td width="50%" align="center">
-        <strong>Architectural Detail Sheet</strong><br /><br />
-        <img width="100%" alt="Product Details View" src="https://user-images.githubusercontent.com/53341343/212306320-63fb1af8-fb24-42a4-a481-744800794c25.png" />
+        <strong>Curved Product Sheet (iOS Simulator Retina)</strong><br /><br />
+        <img width="340" alt="Architectural Detail Sheet" src="docs/screenshots/furniture_product.png" />
       </td>
     </tr>
   </table>
