@@ -6,6 +6,7 @@ A Flutter mobile e-commerce interface designed for exploring luxury furniture co
 [![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev/)
 [![Platform](https://img.shields.io/badge/Platform-iOS_%7C_Android-black)](https://flutter.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Interactive_Web_App-02569B?logo=googlechrome&logoColor=white)](https://ghost-9.github.io/Furniture-App-UI/)
 
 ---
 
